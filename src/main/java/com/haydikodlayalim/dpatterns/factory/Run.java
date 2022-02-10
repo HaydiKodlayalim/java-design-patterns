@@ -6,7 +6,7 @@ public class Run {
                 .export(" Test content ");
         System.out.println(fileExcel);
 
-        String filePdf = FileExporterFactory.getInstance(FileExporterFactory.FileType.EXCEL)
+        String filePdf = FileExporterFactory.getInstance(FileExporterFactory.FileType.PDF)
                 .export(" Test content ");
         System.out.println(filePdf);
     }
